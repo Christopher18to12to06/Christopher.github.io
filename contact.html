@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <!-- font awesome cdn link -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+    />
+    <!-- custom css link -->
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- scroll reveal -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+  </head>
+  <body>
+    <!-- header section start  -->
+
+    <header class="header">
+      <a href="home.html" class="logo">
+        <i class="fas fa-pizza-slice"></i> Pizza</a
+      >
+
+      <nav class="navbar">
+        <a href="home.html">home</a>
+        <a href="about.html">about</a>
+        <a href="menu.html">menu</a>
+        <a href="gallery.html">gallery</a>
+        <a href="contact.html">contact</a>
+      </nav>
+
+      <div class="icons">
+        <div id="cart" class="fas fa-shopping-cart"></div>
+        <div id="login" class="fas fa-user"></div>
+        <div id="menu" class="fas fa-bars"></div>
+      </div>
+
+      <div class="shopping-cart">
+        <div class="box">
+          <i class="fas fa-times"></i>
+          <img src="gambar/pizza 1.jpg" alt="" />
+          <div class="content">
+            <h3>Pizza</h3>
+            <span class="quantity">1</span>
+            <span class="multiply">x</span>
+            <span class="price">$ 14.99</span>
+          </div>
+        </div>
+
+        <div class="box">
+          <i class="fas fa-times"></i>
+          <img src="gambar/pizza 1.jpg" alt="" />
+          <div class="content">
+            <h3>Pizza</h3>
+            <span class="quantity">1</span>
+            <span class="multiply">x</span>
+            <span class="price">$ 14.99</span>
+          </div>
+        </div>
+
+        <div class="box">
+          <i class="fas fa-times"></i>
+          <img src="gambar/pizza 1.jpg" alt="" />
+          <div class="content">
+            <h3>Pizza</h3>
+            <span class="quantity">1</span>
+            <span class="multiply">x</span>
+            <span class="price">$ 14.99</span>
+          </div>
+        </div>
+        <h3 class="total">total: $56.97</h3>
+        <a href="#" class="btn">checkout cart</a>
+      </div>
+
+      <form action="" class="login-form">
+        <h3>login form</h3>
+        <input type="email" placeholder="enter your email" class="box" />
+        <input type="password" placeholder="enter your password" class="box" />
+        <div class="remember">
+          <input type="checkbox" name="" id="remember-me" />
+          <label for="remember-me">remember me</label>
+        </div>
+        <input type="submit" value="login" class="btn" />
+      </form>
+    </header>
+
+    <!-- header section end  -->
+
+    <div class="heading">
+      <h1>Our Contact</h1>
+      <p><a href="home.html">home>>>></a>Contact</p>
+    </div>
+
+    <!-- contact seciont start -->
+
+    <section class="contact" id="contact">
+      <div class="icon-container">
+        <div class="icons">
+          <i class="fas fa-phone"></i>
+          <h3>Our Number</h3>
+          <p>+123 456 7899</p>
+          <p>+123 456 7899</p>
+        </div>
+
+        <div class="icons">
+          <i class="fas fa-envelope"></i>
+          <h3>Our E-mail</h3>
+          <p>ceteworkspace@gmail.com</p>
+          <p>ceteworkspace@gmail.com</p>
+        </div>
+
+        <div class="icons">
+          <i class="fas fa-map-marker-alt"></i>
+          <h3>Our Address</h3>
+          <p>Karachi, Italian - 1234 street</p>
+        </div>
+      </div>
+
+      <div class="row">
+        <form action="">
+          <h3>Lets contact with us</h3>
+          <div class="inputBox">
+            <input type="text" placeholder="enter your name" class="box" />
+            <input type="email" placeholder="enter your email" class="box" />
+          </div>
+          <div class="inputBox">
+            <input type="number" placeholder="enter your number" class="box" />
+            <input type="text" placeholder="enter your subject" class="box" />
+          </div>
+          <textarea placeholder="your message" cols="30" rows="10"></textarea>
+          <input type="submit" value="send messages" class="btn" />
+        </form>
+      </div>
+    </section>
+    <!-- contact seciont end -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+
+    <!-- custom js link  -->
+    <script src="script.js"></script>
+  </body>
+</html>
